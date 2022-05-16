@@ -12,7 +12,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { registerLocaleData } from '@angular/common';
 import localePt from '@angular/common/locales/pt';
-import { CommonModule } from '@angular/common';
+
 
 registerLocaleData(localePt);
 
@@ -27,8 +27,7 @@ registerLocaleData(localePt);
     AppRoutingModule,
     NgbModule,
     FormsModule,
-    HttpClientModule,
-    CommonModule
+    HttpClientModule
   ],
   providers: [{ provide: LOCALE_ID, useValue: 'pt-BR' }],
   bootstrap: [AppComponent]
