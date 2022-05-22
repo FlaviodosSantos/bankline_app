@@ -23,5 +23,4 @@ export class MovimentacaoService {
     return this.http.post(`${baseUrl}/movimentacoes`, movimentacao);
   }
 
-
 }
